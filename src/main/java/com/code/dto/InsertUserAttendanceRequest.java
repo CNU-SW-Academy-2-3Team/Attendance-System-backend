@@ -1,8 +1,8 @@
-package com.code.Entity;
+package com.code.dto;
 
 import java.time.LocalDateTime;
 
-public class AttendanceInsertApi {
+public class InsertUserAttendanceRequest {
 
     private String guid;
     private LocalDateTime enter_time;

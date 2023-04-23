@@ -1,10 +1,16 @@
-package com.code.Entity;
+package com.code.dto;
 
-public class InsertUserGroupApi {
+public class InsertGroupUserRequest {
 
     private Integer uid;
 
     private String invite_code;
+
+
+    public InsertGroupUserRequest(Integer uid, String invite_code) {
+        this.uid = uid;
+        this.invite_code = invite_code;
+    }
 
     public Integer getUid() {
         return uid;
